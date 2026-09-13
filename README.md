@@ -28,6 +28,7 @@ I am an independent security researcher focused on [reconnaissance / web applica
 - [dns-quick.sh — Fast DNS Lookup via Google API](./tools/dns-quick.sh)
 
 ## Contact
-- Email: [your email]
-- HackerOne: [your HackerOne handle]
-- X/Twitter: [your handle]
+- **Email:** fecolywill@gmail.com
+- **WhatsApp:** +234 808 420 4679
+- **GitHub:** [github.com/fecolywill](https://github.com/fecolywill)
+- **HackerOne:** [hackerone.com/fecolywill](https://hackerone.com/fecolywill)
