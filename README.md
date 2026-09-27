@@ -15,19 +15,23 @@ I document every finding — including negative results — because methodology 
 
 ## Hacker101 CTF Progress
 
-**Total Points: 29/26** — Crossed the threshold for **private program invitations**
+**Total Points: 38/26** — Crossed the threshold for **private program invitations**
 
 | Challenge | Difficulty | Flags | Skills |
 |---|---|---|---|
 | A little something to get you started | Trivial | 1/1 | Content-type analysis |
 | **Postbook** | Easy | **7/7** | IDOR, HPP, cookie forgery, weak credentials, broken access control |
+| **Micro-CMS v2** | Moderate | **3/3** | SQL injection (union + blind), HTTP method auth bypass, session forgery, XSS filter bypass |
 
 *Full Postbook writeup: [reports/hacker101-postbook.md](./reports/hacker101-postbook.md)*
+
+*Full Micro-CMS v2 writeup: [reports/hacker101-microcms2.md](./reports/hacker101-microcms2.md)*
 
 ## Portfolio Contents
 
 ### 1. Reports
 - [Hacker101 — Postbook (7/7 flags)](./reports/hacker101-postbook.md) — IDOR, HTTP Parameter Pollution, MD5 cookie forgery, weak credentials, broken access control on delete
+- [Hacker101 — Micro-CMS v2 (3/3 flags)](./reports/hacker101-microcms2.md) — SQL injection (union + blind), HTTP method access-control bypass, XSS filter bypass, plaintext credential storage
 - [Essity.com — Attack Surface Analysis](./reports/essity.md)
 - [Box.com — OAuth & Subdomain Enumeration](./reports/box.md)
 - [Semtech.com — ExpressionEngine Exposure Analysis](./reports/semtech.md)
@@ -44,6 +48,7 @@ I document every finding — including negative results — because methodology 
 - [session-exploit.sh — Session / IDOR / Hash-Forgery Helper](./tools/session-exploit.sh)
 - [recon.sh — Automated Subdomain Enumeration](./tools/recon.sh)
 - [dns-quick.sh — Fast DNS Lookup via Google API](./tools/dns-quick.sh)
+- [blind-sqli.py — Boolean-Based Blind SQL Injection Extractor](./tools/blind-sqli.py)
 
 ## Approach
 
